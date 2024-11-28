@@ -42,7 +42,7 @@ const path = require("path");
 const app = express();
 
 const corsOptions = {
-  origin: "https://office-du2l30tvl-mohadowais-projects.vercel.app/",
+  origin: "*",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
